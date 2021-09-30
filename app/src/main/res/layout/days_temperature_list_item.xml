@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/txtDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_item_top_margin"
+        android:layout_marginStart="@dimen/list_item_top_margin"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="First" />
+
+    <ImageView
+        android:id="@+id/imgSymbol"
+        android:layout_width="@dimen/image_size"
+        android:layout_height="@dimen/image_size"
+        android:layout_marginTop="@dimen/image_top_margin"
+        android:layout_marginEnd="@dimen/image_symbol_margin_end"
+        android:src="@color/cardview_dark_background"
+        app:layout_constraintEnd_toStartOf="@id/txtTemperature"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTemperature"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/list_item_top_margin"
+        android:layout_marginEnd="@dimen/list_item_top_margin"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_size"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Third" />
+</androidx.constraintlayout.widget.ConstraintLayout>

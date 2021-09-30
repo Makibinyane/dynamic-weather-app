@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">dynamic-weather-app</string>
+    <string name="sunny">SUNNY</string>
+    <string name="cloudy">CLOUDY</string>
+    <string name="rainy">RAINY</string>
+    <string name="temperature_text">%1$s%2$s </string>
+    <string name="sea_weather_type">Sea</string>
+    <string name="forest_weather_type">Forest</string>
+    <string name="clouds">Clouds</string>
+    <string name="rain">Rain</string>
+    <string name="clear">Clear</string>
+    <string name="current">Current</string>
+    <string name="min">Min</string>
+    <string name="max">Max</string>
+    <string name="something_went_wrong_message">Something went wrong, please try again</string>
+    <string name="home_title">Home</string>
+</resources>

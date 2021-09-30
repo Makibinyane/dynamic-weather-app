@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">8pt</dimen>
+    <dimen name="current_temp_layout_height">320dp</dimen>
+    <dimen name="image_size">36dp</dimen>
+    <dimen name="list_item_top_margin">14dp</dimen>
+    <dimen name="image_top_margin">8dp</dimen>
+    <dimen name="current_temp_layout_text_size">20pt</dimen>
+    <dimen name="days_temperature_container_top_margin">6dp</dimen>
+    <dimen name="temperature_margin">120dp</dimen>
+    <dimen name="current_temperature_margin_start_label">102dp</dimen>
+    <dimen name="max_temperature_margin_start_label">112dp</dimen>
+    <dimen name="divider_height">1dp</dimen>
+    <dimen name="image_symbol_margin_end">122dp</dimen>
+    <dimen name="max_temperature_margin_end">16dp</dimen>
+    <dimen name="current_temperature_margin_start">130dp</dimen>
+    <dimen name="min_temperature_margin_start">16dp</dimen>
+</resources>
