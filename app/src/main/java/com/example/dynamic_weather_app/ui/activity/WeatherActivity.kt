@@ -1,12 +1,8 @@
 package com.example.dynamic_weather_app.ui.activity
 
 import android.Manifest
-import android.content.Context
 import android.content.pm.PackageManager
-import android.location.Criteria
 import android.location.Location
-import android.location.LocationListener
-import android.location.LocationManager
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
@@ -30,8 +26,6 @@ import dagger.hilt.android.AndroidEntryPoint
 class WeatherActivity : AppCompatActivity() {
     private val viewModel: WeatherViewModel by viewModels()
     private lateinit var binding: ActivityWeatherBinding
-    private var locationManager: LocationManager? = null
-    private var provider: String? = null
     private lateinit var fusedLocationClient: FusedLocationProviderClient
 
     override fun onCreate(savedInstanceState: Bundle?) {
